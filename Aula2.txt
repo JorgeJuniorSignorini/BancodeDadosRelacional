@@ -1,0 +1,10 @@
+create table Diversos(id integer,  numero integer, codigo integer, observacoes text);
+
+create table Conta(id integer,  numero integer, codigo integer);
+
+create table Banco(id integer,  cidade text, codigo integer, endereco text, cep integer);
+
+create table Agencia(id integer,  cidade text, codigo integer, endereco text, cep integer);
+
+create table Cliente(id integer, nome text, cpf text, telefone text, cep text, endereco text);
+
